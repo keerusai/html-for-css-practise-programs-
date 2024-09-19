@@ -1,0 +1,15 @@
+/* <!-- width in media querey --> */
+
+div{
+    height:100px;
+    width:100px;
+    background-color:aquamarine;
+    align-content:center;
+    text-align:center;
+}
+@media(min-width:200px) and (max-width:500px){
+    /* note:we must give wth space between and else it wont work */
+    div{
+        background-color:black;
+    }
+}

@@ -1,0 +1,35 @@
+/* question number-1 */
+
+/* div{
+    text-align:center;
+    height:100px;
+    width:100px;
+    background-color:greenyellow;
+    border-radius:50%;
+} */
+
+/* question-number-2 */
+*{
+    color:white;
+    text-decoration:none;
+}
+#navbar{
+    height:50px;
+    background-color:black;
+}
+#amazon{
+    font-size:25px;
+    color:orange;
+}
+button{
+    background-color:orange;
+}
+a{
+    margin:85px;
+}
+img{
+    height:30px;
+    width:50px;
+    background-color: black;
+    padding-top:5px;
+}

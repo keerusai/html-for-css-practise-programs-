@@ -1,0 +1,57 @@
+/* header part of the page */
+
+*{
+    color:white;
+    text-decoration:None;
+}
+#navbar{
+    height: 100px;
+    background-color:black;
+    margin:0px;
+    line-height:100px;
+}
+#Amazon{
+    color:orange;
+    font-size:25px;
+}
+a{
+   margin:75px;
+   
+}
+#img1{
+   padding:10px 20px 10px 30px;
+    height:70px;
+    width:70px;
+}
+#img2{
+    padding-left:150px;
+    padding-bottom:10px;
+    height:70px;
+    width:70px;
+}
+button{
+    background-color:orange;
+}
+
+/* content part of the page */
+
+.contentbox{
+    color:black;
+    height:100px;
+    width:100px;
+    border:2px black;
+    display:inline-block;
+    /* background-color:orange; */
+}
+#content{
+    height:500px;
+}
+/* padding part */
+
+footer{
+    background-color:black;
+    color:white;
+    text-align:center;
+    height:60px;
+    padding-top:20px;
+}

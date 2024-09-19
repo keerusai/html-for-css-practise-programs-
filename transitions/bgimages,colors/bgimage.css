@@ -1,0 +1,11 @@
+div{
+    height: 500px;
+    width:500px;
+    background-color:bisque;
+    color:2px brown solid;
+    display:inline-block;
+}
+#img1{
+    background-image:url("bgimage.jpg");
+    background-size:cover;
+}

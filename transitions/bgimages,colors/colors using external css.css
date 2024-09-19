@@ -1,0 +1,24 @@
+h1{
+    color:chartreuse;
+}
+
+p{
+    color:rgb(161, 14, 43);
+    /* giving color using color picker from google using hexa method*/
+    color:#2d7d66;
+}
+button{
+    /* manual giving of an colour */
+    color:blueviolet;
+    /* giving color using hexadecimal values */
+    color:hsl(249, 54%, 3%);
+    background-color:rgb(197, 218, 239);
+}
+body{
+    background-color: rgb(210, 40, 40);
+    /* here i have just check what color i might get if i combine both red and green and we got yellow */
+    background-color: rgb(255, 255,0);
+    /* here iam using with color picker from google */
+     background-color:rgb(14, 138, 142); 
+    /* and here i have given with 3 background colours but previously given color will be applied for the background
+}

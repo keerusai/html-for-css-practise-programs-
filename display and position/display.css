@@ -1,0 +1,29 @@
+/* for inline display */
+div{
+    background-color: aquamarine;
+    display:inline;
+}
+/* for block display */
+button{
+    display:block;
+}
+/* for inline block display */
+div{
+    display:inline-block;
+    margin:5px;
+    padding:20px;
+    height:1px;
+    border:2px black solid;
+}
+/* for none display */
+#box-4{
+    display:none;
+    background-color:aquamarine;
+}
+p{
+    display:inline;
+}
+/* visibility-hidden */
+#visibility{
+    visibility:hidden;
+}

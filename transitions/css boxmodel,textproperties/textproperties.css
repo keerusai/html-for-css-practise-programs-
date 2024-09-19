@@ -1,0 +1,63 @@
+/* text alignment properties */
+P{
+    text-align:right;
+}
+
+p{
+    text-align:center;
+}
+
+/* by default we will have an align as left itself so there is no need of specially specifying with left align */
+p{
+    text-align:left;
+}
+
+h2{
+    text-align:center;
+    /* method 1 :when we use all ina  groupes way we get all the styles but not incase of individually */
+    text-decoration: blueviolet dotted  underline overline line-through;
+}
+h1{
+    text-align:center;
+    /* method 2 writting individually*/
+    /* when we give individually we get only last line styling */
+    text-decoration:underline;
+    text-decoration:overline;
+    /* text-decoration: red line-through; */
+}
+
+/* here div is an parent tag even though we gave changes in parent tag it doesn't change because we changes styling even in child h1 and p so it like inline it give preference first to child styling only.if in case we wont give styling for child then it takes parent styling */
+div{
+    text-align:right;
+}
+
+p{
+    text-align:end;
+}
+
+a{
+    text-decoration:none;
+}
+
+/* font-weight  method 1*/
+
+#h1{
+    font-weight:normal;
+}
+#h2{
+    font-weight:bold;
+}
+#h3{
+    font-weight:bolder;
+}
+#h4{
+    font-weight:lighter;
+}
+/* method 2 we can give range from 100-900 */
+#h3{
+    font-weight: 500;
+}
+/* font family to change the font */
+p{
+    font-family:Arial, Helvetica, sans-serif;
+}

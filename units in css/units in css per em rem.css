@@ -1,0 +1,20 @@
+#box1{
+    width:100px;
+    height:100px;
+    font-size:10px;
+    color:white;
+    background-color:rgb(14, 13, 13);
+}
+#box2{
+    background-color: brown;
+    width:80%;
+    /* parent */
+    font-size:1em;
+    color:white;
+    /* root */
+    width:5rem;
+    /* vh(view port height) */
+    height:20vh;
+    /* vw(view port width) */
+    width:20vw;
+}

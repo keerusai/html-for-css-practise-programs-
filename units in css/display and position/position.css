@@ -1,0 +1,40 @@
+div{
+    height:100px;
+    width:100px;
+    background-color:brown;
+    border:1px white solid;
+    display:inline-block;
+    line-height:100px;
+    text-align:center;
+}
+#box1{
+    /* we cant do any changes for static */
+    position:static;
+    top:50px;
+    bottom:50px;
+}
+#box2{
+    /* where the changes will happen what we give unlike static */
+    position:relative;
+    top:20px;
+    right:20px;
+    z-index:1;
+}
+#box3{
+    /* it will hide the all other boxes inside in it and these box and content will be on the top when we check it the box-3 hided the box-4 thats why we gave with top:20px so that we can see that box 3 is hiding box-4 if there was box-5 it will hide even that */
+    position:absolute;
+    top:10px;
+    z-index:3;
+}
+#box5{
+    /* these content or box will be fixed for the display even though we scroll the content or any thing it will be fixed */
+    position:fixed;
+    bottom:100px;
+    left:40px;
+    z-index:2;
+}
+#box6{
+    /* it will be fixed at the particular location it doen't move its place */
+    position:sticky;
+    top:50px; 
+}

@@ -1,0 +1,29 @@
+/* it is a universal selectors and it changes whole document styling at once */
+*{
+    color:coral;
+    background-color: beige ;
+}
+/* here we are taking with paricular element so its a element selector */
+p{
+    color:aqua
+}
+h1{
+    /* here i gave with only for h1 background color different but universal background colour is different so here the background colour of h1 changes and background color of whole page will be same colur what we have mentioned in universal selector */
+    background-color:rgb(214, 255, 127);
+}
+  
+/* this is a id selector where we give id for the elememt and we mention that id here and we make changes */
+/* this will be helpful when we have same elements but we need to style differently for each element or for any partlicular element we use with the id selector */
+#paraone{
+    color:brown;
+}
+#parathree{
+    background-color: brown;
+}
+/* this is a class selector */
+/* where if you check in html code for p and h5 tag i used with the same id and made changes for both at a time */
+
+.class1
+{
+     color:blueviolet;
+}

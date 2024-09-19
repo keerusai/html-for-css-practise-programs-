@@ -1,0 +1,13 @@
+/* font-size */
+#pone{
+    font-size:25px;
+}
+
+/* line and height: its like line spacing (space between line to line)*/
+
+h3{
+    line-height: 30px;
+/* it is a text transform which will help us to transform our text to either uppercase/lowercase/capitalize/none */
+    text-transform:capitalize;
+    /* here capitalize means which makes every first letter of word as caps */
+}

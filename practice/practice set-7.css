@@ -1,0 +1,30 @@
+div{
+    background-color:coral;
+    border:1px black solid;
+    height:100px;
+    width:100px;
+    display:inline-block;
+    text-align:center;
+    align-content:center;
+}
+
+@media(max-width:300px) {
+    #div1{
+        background-color:rgb(117, 199, 85);
+    }
+}
+@media(min-width:300px) and (max-width:400px) {
+    #div2{
+        background-color:pink;
+    }
+}
+@media(min-width:400px) and (max-width:600px) {
+    #div3{
+        background-color:red;
+    }
+}
+@media(min-width:600px) {
+    #div4{
+        background-color:blue;
+}
+}
